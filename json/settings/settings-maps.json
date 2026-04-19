@@ -400,7 +400,17 @@
     "product" : {
         "show_smoothed_range_folding" : false,
         "sti_forecast_enabled" : true,
-        "sti_past_enabled" : true
+        "sti_past_enabled" : true,
+        "thresholds" : {
+            "L2:VEL" : {
+                "enabled" : true,
+                "value" : 15
+            },
+            "L3:SRM" : {
+                "enabled" : true,
+                "value" : 30
+            }
+        }
     },
     "text" : {
         "fonts" : {

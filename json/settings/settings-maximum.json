@@ -402,7 +402,17 @@
     "product" : {
         "show_smoothed_range_folding" : false,
         "sti_forecast_enabled" : true,
-        "sti_past_enabled" : true
+        "sti_past_enabled" : true,
+        "thresholds" : {
+            "L2:REF" : {
+                "enabled" : true,
+                "value" : 80
+            },
+            "L3:SDR" : {
+                "enabled" : true,
+                "value" : 45
+            }
+        }
     },
     "text" : {
         "fonts" : {

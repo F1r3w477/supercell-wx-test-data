@@ -363,7 +363,9 @@
     "product" : {
         "show_smoothed_range_folding" : false,
         "sti_forecast_enabled" : true,
-        "sti_past_enabled" : true
+        "sti_past_enabled" : true,
+        "thresholds" : {
+        }
     },
     "text" : {
         "fonts" : {
